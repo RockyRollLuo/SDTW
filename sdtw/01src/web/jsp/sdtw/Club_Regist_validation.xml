@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="ClubName" display-name="社团名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ClubType" display-name="社团类别">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ClubTimeSetup" display-name="社团成立时间">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ClubAcademy" display-name="指导单位">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ClubQQ" display-name="QQ">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ClubEmail" display-name="邮箱">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ClubPubAccount" display-name="公众号">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="RegistSponsor" display-name="注册联系人">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Tenet" display-name="社团宗旨">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="MemberCount" display-name="现有人数">
+<depend name="integer" />
+</field>
+<field name="MemberUndergra" display-name="本科人数">
+<depend name="integer" />
+</field>
+<field name="MemberGra" display-name="本科生人数">
+<depend name="integer" />
+</field>
+<field name="MenberLeague" display-name="团员人数">
+<depend name="integer" />
+</field>
+<field name="MenberParty" display-name="党员人数">
+<depend name="integer" />
+</field>
+<field name="MemberMale" display-name="男生人数">
+<depend name="integer" />
+</field>
+<field name="MemberFemale" display-name="女生人数">
+<depend name="integer" />
+</field>
+<field name="ClubManager" display-name="社团负责人情况">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="ClubTea" display-name="社团指导教师情况">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="RegistSummary" display-name="上学期工作总结（要点）">
+<depend name="maxLength" param0="1000" />
+</field>
+<field name="RegistPlan" display-name="本学期工作计划（要点）">
+<depend name="maxLength" param0="1000" />
+</field>
+<field name="CommentAcademy" display-name="学院审核意见">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="CommentUnion" display-name="学校审核意见">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="CheckFlag" display-name="审核状态">
+<depend name="integer" />
+</field>
+<field name="AddPerson" display-name="添加人">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="ModiPerson" display-name="修改人">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="CheckXy" display-name="学院审核人">
+<depend name="integer" />
+</field>
+<field name="CheckTw" display-name="团委审核人">
+<depend name="integer" />
+</field>
+</form>
+</validation-config>

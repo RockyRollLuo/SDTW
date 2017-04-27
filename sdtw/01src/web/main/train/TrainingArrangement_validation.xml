@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="ProjectName" display-name="学习项目名称">
+<depend name= "required" />
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="HostName" display-name="负责人">
+<depend name="maxLength" param0="2000" />
+</field>
+<!-- <field name="HostId" display-name="负责人id">
+<depend name="maxLength" param0="2000" />
+</field> -->
+<field name="AddPerson" display-name="添加人">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="AddUseraccount" display-name="添加人账号">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="ModifyUseraccount" display-name="修改人账号">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="OtherUniversity" display-name="是否外校">
+<depend name="integer" />
+</field>
+<field name="ModifyPerson" display-name="修改人">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="AddFileList" display-name="附件">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="StartTime" display-name="开始时间">
+<depend name= "required" />
+</field>
+<field name="EndTime" display-name="结束时间">
+<depend name= "required" />
+</field>
+<field name="ProjectExplain" display-name="项目说明">
+<depend name= "required" />
+<depend name="maxLength" param0="2000" />
+</field>
+</form>
+</validation-config>

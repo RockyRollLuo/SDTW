@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="Type" display-name="类别">
+<depend name="integer" />
+</field>
+<field name="DeclareId" display-name="立项表id">
+<depend name="integer" />
+</field>
+<field name="Academy" display-name="学院">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="XyHonour" display-name="学院设置荣誉">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Submitflag" display-name="提交状态">
+<depend name="integer" />
+</field>
+<field name="XyCheckFlag" display-name="学院状态">
+<depend name="integer" />
+</field>
+<field name="TwCheckFlag" display-name="团委审核状态">
+<depend name="integer" />
+</field>
+<field name="Addaccount" display-name="添加用户">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Addtime" display-name="添加时间">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare1" display-name="课题名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare2" display-name="团队名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare5" display-name="实践主题">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare8" display-name="其他主题">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare6" display-name="接受单位（个人）">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare7" display-name="接收单位负责人或接收个人姓名">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare9" display-name="手机">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare10" display-name="接受单位个人简介">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Declare11" display-name="活动计划主题">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Declare12" display-name="活动计划背景及意义">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Declare13" display-name="时间">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Declare14" display-name="活动地点及路线">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Declare15" display-name="项目预期成果">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Declare16" display-name="宣讲会">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare17" display-name="讲座">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare18" display-name="专业培训">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare19" display-name="调研报告">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare20" display-name="支教受益人数">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare21" display-name="文体演出">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare22" display-name="捐赠（价值）">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare23" display-name="咨询场次">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare24" display-name="是否建立实践基地">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare25" display-name="其它实践成果">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare26" display-name="实践中团队是否拍摄DV">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare27" display-name="前期准备工作">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Declare28" display-name="新闻媒体联系报道">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Declare29" display-name="实践期间完成的任务、详细活动计划及日程安排">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Declare30" display-name="团队安全应急预案">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Declare31" display-name="指导老师姓名">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare32" display-name="是否随从队伍">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare33" display-name="工作单位">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare34" display-name="职务职称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare35" display-name="指导老师电话">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare36" display-name="指导老师手机">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare37" display-name="指导老师邮箱">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare38" display-name="领队姓名">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare39" display-name="领队工作单位">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare40" display-name="领队职务名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare41" display-name="领队电话">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare42" display-name="领队手机">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare43" display-name="领队邮箱">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare44" display-name="领队2姓名">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare45" display-name="领队2学院">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare46" display-name="领队2专业">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare47" display-name="领队2年级">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare48" display-name="领队2学历">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare49" display-name="领队2电话">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare50" display-name="领队2手机">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare51" display-name="领队2邮箱">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare52" display-name="总人数">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare53" display-name="专业老师">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare54" display-name="政工干部">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare55" display-name="本专科学生">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare56" display-name="研究生">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare57" display-name="交通费">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare58" display-name="住宿费">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare59" display-name="其他费用">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Declare60" display-name="费用总计">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare61" display-name="团队自筹费用">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare62" display-name="申请学校立项经费">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare63" display-name="学校配套经费">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Declare64" display-name="接收单位（个人）支持经费">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="AddFileList" display-name="附件">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Remark1" display-name="备用">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Remark2" display-name="备用">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Remark3" display-name="备用">
+<depend name="maxLength" param0="45" />
+</field>
+</form>
+</validation-config>

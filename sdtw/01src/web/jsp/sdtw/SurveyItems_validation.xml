@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="SurveyCode" display-name="问卷吃哦de">
+<depend name="required" />
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Head_1ID" display-name="Head_1ID">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Item_ID" display-name="Item_ID">
+<depend name="required" />
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Item_Title" display-name="标题">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Item_Type" display-name="类型">
+<depend name="required" />
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Item_SelectList" display-name="选项">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="Item_Score" display-name="分数">
+<depend name="integer" />
+</field>
+</form>
+</validation-config>

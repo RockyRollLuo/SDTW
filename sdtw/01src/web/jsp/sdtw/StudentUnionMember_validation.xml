@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="Unionid" display-name="校级院级学生会id">
+<depend name="integer" />
+</field>
+<field name="Deptid" display-name="部门学生会id">
+<depend name="integer" />
+</field>
+<field name="UnionorDept" display-name="院级或部门级学生会">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="SNo" display-name="账号">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Campus" display-name="校区">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ChargeDept" display-name="主要部门">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Phone" display-name="手机">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Duty" display-name="职位">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Remark" display-name="备注">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="SchoolYear" display-name="学年">
+<depend name="maxLength" param0="45" />
+</field>
+</form>
+</validation-config>

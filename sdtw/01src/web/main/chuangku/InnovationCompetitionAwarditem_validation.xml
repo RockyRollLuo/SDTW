@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="Itemname" display-name="奖项名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Modiperson" display-name="修改人">
+<depend name="maxLength" param0="45" />
+</field>
+</form>
+</validation-config>

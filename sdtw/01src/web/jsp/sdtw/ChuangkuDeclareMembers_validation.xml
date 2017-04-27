@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="Sno" display-name="学号">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Name" display-name="姓名">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Tel" display-name="联系方式">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Academy" display-name="学院">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Duty" display-name="职责">
+<depend name="maxLength" param0="45" />
+</field>
+</form>
+</validation-config>

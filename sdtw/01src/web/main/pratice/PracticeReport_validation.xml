@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="DeclareId" display-name="立项表id">
+<depend name="integer" />
+</field>
+<field name="Type" display-name="类别">
+<depend name="integer" />
+</field>
+<field name="TeamId" display-name="团队id">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Memberid" display-name="成员id">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Academy" display-name="学院">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="AddFilelist" display-name="添加文件列表">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="XyCheckFlag" display-name="学院审核状态">
+<depend name="integer" />
+</field>
+<field name="TwCheckFlag" display-name="团委审核状态">
+<depend name="integer" />
+</field>
+<field name="SubmitFlag" display-name="提交状态">
+<depend name="integer" />
+</field>
+<field name="XyHonour" display-name="学院设置荣誉">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Report1" display-name="团队名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Report2" display-name="所属学院">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Report3" display-name="课题名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Report4" display-name="团队类别">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Report5" display-name="实践主题">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Report6" display-name="立项类别">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Report12" display-name="活动地点、路线">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Report13" display-name="本科学生">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Report14" display-name="硕士研究生">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Report15" display-name="博士研究生">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="StartTime" display-name="活动开始时间">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="EndTime" display-name="活动结束时间">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Report17" display-name="活动天数">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Report18" display-name="接收单位对团队活动的评价">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Report19" display-name="回访联系人">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Report20" display-name="回访电话">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Report23" display-name="报告题目">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Report24" display-name="报告类别">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Report25" display-name="报告字数">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Report26" display-name="对地方经济、社会和文化发展或企业成长的实际作用">
+<depend name="maxLength" param0="1000" />
+</field>
+<field name="Report27" display-name="指导教师工作总结">
+<depend name="maxLength" param0="1000" />
+</field>
+<field name="Report28" display-name="主要宣传报道情况">
+<depend name="maxLength" param0="1000" />
+</field>
+<field name="Report29" display-name="宣传报道数量">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Report30" display-name="安全工作落实情况总结">
+<depend name="maxLength" param0="1000" />
+</field>
+<field name="Addaccount" display-name="添加人">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Addtime" display-name="添加时间">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Remark" display-name="备用">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Remark2" display-name="备用">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Remark3" display-name="备用">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Remark4" display-name="备用">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Remark5" display-name="备用">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Remark6" display-name="备用">
+<depend name="maxLength" param0="45" />
+</field>
+</form>
+</validation-config>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="ActivityName" display-name="活动名称">
+<depend name="maxLength" param0="100" />
+</field>
+<field name="ActivitykindType" display-name="活动类别">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="OrgacadeMy" display-name="活动组织单位">
+<depend name="maxLength" param0="100" />
+</field>
+<field name="ActivityLevel" display-name="活动级别">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="TotalRounds" display-name="活动轮次">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ActivityDate1" display-name="第一轮活动日期">
+<depend name="maxLength" param0="10" />
+</field>
+<field name="ActivityPlace1" display-name="第一轮活动地点">
+<depend name="maxLength" param0="200" />
+</field>
+<field name="ActivityDate2" display-name="第二轮活动日期">
+<depend name="maxLength" param0="10" />
+</field>
+<field name="ActivityPlace2" display-name="第二轮活动地点">
+<depend name="maxLength" param0="200" />
+</field>
+<field name="ActivityDate3" display-name="第三轮活动日期">
+<depend name="maxLength" param0="10" />
+</field>
+<field name="ActivityPlace3" display-name="第三轮活动地点">
+<depend name="maxLength" param0="200" />
+</field>
+<field name="Deadline" display-name="报名截止日期">
+<depend name="maxLength" param0="10" />
+</field>
+<field name="PersonNumber" display-name="所需人数">
+<depend name="maxLength" param0="10" />
+</field>
+<field name="ActivityPrincipal" display-name="负责人">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="Contact" display-name="联系方式">
+<depend name="maxLength" param0="20" />
+</field>
+<field name="ActivityExplain" display-name="详细介绍">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="ApplicationRange" display-name="申请范围">
+<depend name="maxLength" param0="200" />
+</field>
+<field name="Campus" display-name="参与校区">
+<depend name="maxLength" param0="100" />
+</field>
+<field name="Academy" display-name="学院">
+<depend name="maxLength" param0="1000" />
+</field>
+<field name="Addperson" display-name="添加人">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ModifyPerson" display-name="修改人">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Honor" display-name="荣誉">
+<depend name="maxLength" param0="500" />
+</field>
+</form>
+</validation-config>

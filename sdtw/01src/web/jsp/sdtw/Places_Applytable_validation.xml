@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="UserAccount" display-name="用户账号">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="PlaceApplycode" display-name="场地代码">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ApplyTimeRange" display-name="申请时间段">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Applicant" display-name="使用单位">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ActivityPrincipal" display-name="活动负责人">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="PrincipalDuty" display-name="活动负责人职务">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="PrincipalPhone" display-name="活动负责人联系电话">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="DistributionPeriod" display-name="布场时段">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="RehearsalPeriod" display-name="彩排时段">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ActivityContents" display-name="活动内容">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Speaker" display-name="主讲人">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="BasicProcedures" display-name="基本程序简介">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="MeetingMarks" display-name="会标内容">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="BackgroundContents" display-name="背景内容">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Aponsorship" display-name="商业赞助">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Propaganda" display-name="宣传形式">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="OtherPropaganda" display-name="会场内其他宣传形式">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="TableNums" display-name="桌子数量">
+<depend name="integer" />
+</field>
+<field name="ChairNums" display-name="椅子数量">
+<depend name="integer" />
+</field>
+<field name="WiredmicroPhoneNums" display-name="有线话筒">
+<depend name="integer" />
+</field>
+<field name="WirelessmicroPhoneNums" display-name="无线话筒">
+<depend name="integer" />
+</field>
+<field name="BatteryNums" display-name="话筒电池">
+<depend name="integer" />
+</field>
+<field name="UseFloor" display-name="使用发言台">
+<depend name="integer" />
+</field>
+<field name="UseAudio" display-name="使用音响设备">
+<depend name="integer" />
+</field>
+<field name="UseLighting" display-name="使用照明灯光">
+<depend name="integer" />
+</field>
+<field name="UseStageLight" display-name="使用舞台灯光">
+<depend name="integer" />
+</field>
+<field name="UseComputerLight" display-name="使用电脑灯">
+<depend name="integer" />
+</field>
+<field name="UseProjector" display-name="使用投影仪">
+<depend name="integer" />
+</field>
+<field name="UseAc" display-name="使用空调">
+<depend name="integer" />
+</field>
+<field name="UseBanner" display-name="悬挂横幅">
+<depend name="integer" />
+</field>
+<field name="BannerContent" display-name="横幅内容">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="UsePoster" display-name="张贴海报或展板">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="PosterContent" display-name="海报内容">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="VehicleNums" display-name="参加人员车辆数量">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Promiser" display-name="承诺人">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="PromiserPhone" display-name="承诺人联系电话">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="PromiserAcadeMy" display-name="承诺人学院">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="PromiserClass" display-name="承诺人班级">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Tutor" display-name="指导老师">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="TutorDuty" display-name="指导老师职务">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="TutorPhone" display-name="指导老师联系方式">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="TutorAgree" display-name="指导老师意见">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Remarks" display-name="备注">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Status" display-name="团委审核">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="GuideUnitAgree" display-name="学院审核">
+<depend name="maxLength" param0="45" />
+</field>
+</form>
+</validation-config>

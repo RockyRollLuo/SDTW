@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="AcademyName" display-name="学院名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Academyalias" display-name="别名">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ListOrder" display-name="排序">
+<depend name="integer" />
+</field>
+<field name="AddPerson" display-name="添加人">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="AddTime" display-name="添加时间">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ModiPerson" display-name="修改人">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Leaguecount" display-name="学院名称">
+<depend name="integer" />
+</field>
+<field name="AcadeMySecretary" display-name="团支部数（班级数）">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="AcadePutySecretary" display-name="团委副书记">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="AcaorgPerson" display-name="组织委员">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Acapublicity" display-name="宣传委员">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="AcadeMyLevel" display-name="支部等级">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="AcadeMyPhone" display-name="办公电话">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="AcadeMyPlace" display-name="办公地点">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="AcadeMyeMail" display-name="办公邮箱">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="YouthXyReport" display-name="54青年表彰提交">
+<depend name="maxLength" param0="2" />
+</field>
+<field name="YouthModifyFlag" display-name="54青年表彰修改">
+<depend name="maxLength" param0="2" />
+</field>
+<field name="YouthSchoolYear" display-name="54青年表彰学年">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="YouthPeriodTime" display-name="学院设置54青年表彰周期">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Flag" display-name="标识">
+<depend name="maxLength" param0="4" />
+</field>
+</form>
+</validation-config>

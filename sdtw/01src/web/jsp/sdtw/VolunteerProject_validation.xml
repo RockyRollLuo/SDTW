@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="ProjectName" display-name="项目名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Text" display-name="详情介绍">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="Addaccount" display-name="添加账号">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Addacademy" display-name="添加单位">
+<depend name="maxLength" param0="45" />
+</field>
+</form>
+</validation-config>

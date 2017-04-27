@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="SurveyCode" display-name="调查问卷code">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="SurveyTitle" display-name="调查问卷标题">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Head_1ID" display-name="Head_1ID">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Head_1Title" display-name="Head_1Title">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Head_1Score" display-name="分数">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ItemNumber" display-name="数量">
+<depend name="integer" />
+</field>
+<field name="TimeLength" display-name="有效期">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="SectionScore" display-name="SectionScore">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="SurveyExplain" display-name="调查说明">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="ActiveFlag" display-name="是否可用">
+<depend name="integer" />
+</field>
+<field name="KindTypeFlag" display-name="是否评分">
+<depend name="integer" />
+</field>
+<field name="ScoreTypeFlag" display-name="ScoreTypeFlag">
+<depend name="integer" />
+</field>
+<field name="SurveyNumber" display-name="SurveyNumber">
+<depend name="integer" />
+</field>
+<field name="SectionFlag" display-name="SectionFlag">
+<depend name="integer" />
+</field>
+</form>
+</validation-config>

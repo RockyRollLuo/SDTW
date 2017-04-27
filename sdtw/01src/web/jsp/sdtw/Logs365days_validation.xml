@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="UserAccount" display-name="账号">
+<depend name="required" />
+<depend name="maxLength" param0="45" />
+</field>
+<field name="IpAddress" display-name="Ip账号">
+<depend name="required" />
+<depend name="maxLength" param0="45" />
+</field>
+<field name="LoginTime" display-name="登录时间">
+<depend name="required" />
+<depend name="maxLength" param0="45" />
+</field>
+<field name="UserRole" display-name="用户权限">
+<depend name="required" />
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Behavior" display-name="操作">
+<depend name="required" />
+<depend name="maxLength" param0="45" />
+</field>
+</form>
+</validation-config>

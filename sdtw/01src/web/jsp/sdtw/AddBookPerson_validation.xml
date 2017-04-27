@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="UserAccount" display-name="账号">
+<depend name="required" />
+<depend name="maxLength" param0="45" />
+</field>
+<field name="MyNums" display-name="成员数目">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="PersonName" display-name="姓名">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="PersonAccount" display-name="账号">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="PersonId" display-name="用户id">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="WorkDepartment" display-name="工作单位">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="OfficeTel" display-name="办公电话">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="MobileTel" display-name="手机">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="HomeTel" display-name="家庭电话">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Email" display-name="邮箱">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="OthersInfo" display-name="其他信息">
+<depend name="maxLength" param0="45" />
+</field>
+</form>
+</validation-config>

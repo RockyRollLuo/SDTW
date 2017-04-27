@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="OrgId" display-name="所属单位">
+<depend name="integer" />
+</field>
+<field name="Pid" display-name="上级部门">
+<depend name="integer" />
+</field>
+<field name="Name" display-name="部门名称">
+<depend name="maxLength" param0="200" />
+</field>
+<field name="Leaders" display-name="部门领导">
+<depend name="maxLength" param0="100" />
+</field>
+<field name="Style" display-name="部门类型">
+<depend name="maxLength" param0="1" />
+</field>
+<field name="Code" display-name="部门编码">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="Orderby" display-name="排序">
+<depend name="integer" />
+</field>
+<field name="ReptDept" display-name="上级主管部门">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="Address" display-name="部门地址">
+<depend name="maxLength" param0="200" />
+</field>
+<field name="PostCode" display-name="邮政编码">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="Tel" display-name="部门电话">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="Fax" display-name="传真号码">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="Email" display-name="部门邮箱">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="Remark" display-name="备注">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Enable" display-name="Enable">
+<depend name="integer" />
+</field>
+</form>
+</validation-config>

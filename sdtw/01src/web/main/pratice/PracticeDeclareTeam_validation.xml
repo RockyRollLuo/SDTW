@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="PracticeId" display-name="所参加的实践项目ID">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="TeamName" display-name="团队名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Academy" display-name="所属学院">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="PracticeReportTeamType" display-name="团队类别">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Report21" display-name="团队活动小结">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Report22" display-name="团队主要成绩成果">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Remark" display-name="备用">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Remark2" display-name="备用">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Remark3" display-name="备用">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Remark4" display-name="备用">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Honor" display-name="荣誉">
+<depend name="maxLength" param0="45" />
+</field>
+</form>
+</validation-config>

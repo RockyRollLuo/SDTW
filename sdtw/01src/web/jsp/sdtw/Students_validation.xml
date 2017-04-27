@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="Sno" display-name="学号">
+<depend name="required" />
+<depend name="maxLength" param0="45" />
+</field>
+<field name="SName" display-name="姓名">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="SSex" display-name="性别">
+<depend name="maxLength" param0="2" />
+</field>
+<field name="Sacademy" display-name="学院">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="ZhiBu" display-name="支部">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="Nation" display-name="民族">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="Major" display-name="专业">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="LenOfSchool" display-name="学制">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="Grade" display-name="年级">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="Polista" display-name="政治面貌">
+<depend name="maxLength" param0="3" />
+</field>
+<field name="NativePlace" display-name="籍贯">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="IDNum" display-name="身份证号码">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="Phone" display-name="手机">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="Email" display-name="邮箱">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="Addfilelist" display-name="附件">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="YearToSchool" display-name="学年">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="VolunteerfFag" display-name="是否青年志愿者">
+<depend name="maxLength" param0="2" />
+</field>
+</form>
+</validation-config>

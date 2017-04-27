@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="NoticeName" display-name="通知名称">
+<depend name="required" />
+<depend name="maxLength" param0="45" />
+</field>
+<field name="NoticeInfo" display-name="通知内容">
+<depend name="required" />
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="Enddate" display-name="结束日期">
+<depend name="required" />
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="Startdate" display-name="开始日期">
+<depend name="required" />
+<depend name="maxLength" param0="2000" />
+</field>
+</form>
+</validation-config>

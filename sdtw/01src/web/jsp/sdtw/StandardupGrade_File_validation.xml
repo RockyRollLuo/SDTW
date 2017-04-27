@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="StandardUpGradeName" display-name="团支部达标升级Id">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Academy" display-name="学院">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Principal" display-name="发布人">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Contact" display-name="联系方式">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="AddFileList" display-name="附件">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="AddAccount" display-name="操作人">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ChackFlag" display-name="审核状态">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ApplyLevelType" display-name="申报级别">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ZBName" display-name="团支部名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ZBNums" display-name="团支部人数">
+<depend name="integer" />
+</field>
+</form>
+</validation-config>

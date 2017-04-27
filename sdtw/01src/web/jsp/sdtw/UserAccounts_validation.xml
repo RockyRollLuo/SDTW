@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="UserAccount" display-name="用户账号">
+<depend name="integer" />
+</field>
+<field name="PassWord" display-name="密码">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="TrueName" display-name="真实姓名">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Sex" display-name="性别">
+<depend name="maxLength" param0="4" />
+</field>
+<field name="NickName" display-name="昵称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="UserRole" display-name="用户角色">
+<depend name="maxLength" param0="10" />
+</field>
+<field name="UserGroupList" display-name="用户分组">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="AccountState" display-name="账号状态">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="WorkUnit" display-name="工作单位">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Academy" display-name="学院">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="MyLastLoginIp" display-name="最后登录ip">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Email" display-name="邮箱">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Mobiltel" display-name="手机">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="HomeAddress" display-name="家庭地址">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="HomeTel" display-name="家庭电话">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="OfficeTel" display-name="办公电话">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Fax" display-name="传真">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="OfficeAddress" display-name="办公地址">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Question1" display-name="问题1">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Answer1" display-name="回答1">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="City" display-name="城市">
+<depend name="maxLength" param0="45" />
+</field>
+</form>
+</validation-config>

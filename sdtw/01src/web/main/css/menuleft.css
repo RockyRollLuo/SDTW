@@ -1,0 +1,106 @@
+body {
+      margin:0;               
+      border:none;
+      font-family:Microsoft YaHei; 
+      font-size:13px;
+      height:100%;
+      overflow-x:hidden;
+      background:#3992d0;
+}
+
+
+
+/*---------------------------------------------------------------*/
+
+.copyright{
+	width:100%;
+	margin-top:20px;
+	
+	font-family:Song typeface;
+	font-size:12px;
+	color:#B0C4DE;
+	
+}
+
+.copyright span{
+	padding:0.5em;
+}
+
+
+/*-------------------------------------------------------------*/
+img{
+	border:none;
+}
+
+dl,dt,dd{
+	display:block;
+	margin:0;
+}
+
+a{
+	text-decoration:none;
+}
+a:hover
+{
+    color:#FFFF00!important;   /*yellow*/
+    font-family:SongTi;
+    font-size:14px;
+    text-decoration:none;
+}
+
+.leftsidebar{
+	width:100%;
+/* 	height:100%; */
+	height:auto;
+	background:#3992d0;
+}
+.line{
+	height:2px;
+	width:100%;
+	background-image:url(../images/left/line_bg.png);
+	background-repeat:repeat-x;
+}
+.leftsidebar dt{
+	padding-left:45px;
+	padding-right:10px;
+	background-repeat:no-repeat;
+	background-position:10px center;
+	color:#fff;
+	font-size:14px;
+	position:relative;
+	line-height:48px;
+	cursor:pointer;
+}
+.two{
+	padding-left:55px!important; 
+}
+
+.leftsidebar dd{
+	background-color:#317eb4;
+	padding-left:55px;          
+}
+.leftsidebar dd a{
+	color:#fff;
+	line-height:25px;     
+ }
+.leftsidebar dt img{
+	position:absolute;
+	right:25px;
+	top:20px;
+}
+.leftsidebar dl dd:last-child{
+	padding-bottom:10px;
+}
+
+
+
+/*----------------------------------------------------------------*/
+
+.system>dt:first-child{background-image:url(../images/menuico/system.png)}
+.syetem_management>dt:first-child{background-image:url(../images/menuico/custom.png)}
+.channel>dt:first-child{background-image:url(../images/menuico/channel.png)}
+.app>dt:first-child{background-image:url(../images/menuico/app.png)}
+.cloud>dt:first-child{background-image:url(../images/menuico/cloud.png)}
+.setting>dt:first-child{background-image:url(../images/menuico/syetemsetting.png)}
+.work>dt:first-child{background-image:url(../images/menuico/source.png)}
+.activity>dt:first-child{background-image:url(../images/menuico/statistics.png)}

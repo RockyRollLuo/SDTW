@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="ActivityName" display-name="活动主题">
+<depend name="required" />
+<depend name="maxLength" param0="45" />
+</field>
+<field name="OrgacadeMy" display-name="组织单位">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ClubName" display-name="社团名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="TimeStart" display-name="活动开始时间">
+<depend name= "required" />
+<depend name="maxLength" param0="45" />
+</field>
+<field name="TimeEnd" display-name="活动结束时间">
+<depend name= "required" />
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ActivityPlace" display-name="活动地点">
+<depend name= "required" />
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Organizer" display-name="组织者">
+<depend name="notselected" />
+<depend name="maxLength" param0="45" />
+</field>
+<field name="PredictNumber" display-name="预计参加人数">
+<depend name= "required" />
+<depend name= "integer" />
+<depend name="maxLength" param0="10" />
+</field>
+<field name="IsSupported" display-name="申请时是否有赞助">
+<depend name="maxLength" param0="5" />
+</field>
+<field name="Contant" display-name="活动具体内容及活动经费使用情况">
+<depend name= "required" />
+<depend name="maxLength" param0="500" />
+</field>
+<field name="Contacts" display-name="第一负责人">
+<depend name="notselected" />
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ContactsPhone" display-name="第一负责人电话">
+<depend name= "required" />
+<depend name= "phone" />
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Forecast" display-name="活动预告">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="CommentTeacher" display-name="指导教师意见">
+<depend name="maxLength" param0="200" />
+</field>
+<field name="CommentAcademy" display-name="指导单位意见">
+<depend name="maxLength" param0="200" />
+</field>
+<field name="CommentShelian" display-name="社团联合会意见">
+<depend name="maxLength" param0="200" />
+</field>
+<field name="CheckFlag" display-name="审核">
+<depend name="integer" />
+</field>
+<field name="Remark" display-name="备注">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="AddPerson" display-name="添加人">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Modiperson" display-name="修改人">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="CheckPerson" display-name="活动审批老师">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ProjectId" display-name="项目id">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ProjectName" display-name="项目名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Module" display-name="社团创立(club)或团委立项(club-project)">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="IsatSchool" display-name="是否校内活动">
+<depend name="notselected" />
+<depend name="maxLength" param0="5" />
+</field>
+<field name="BelongId" display-name="附件">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="BudgetList" display-name="预算清单">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="BudgetAmountAll" display-name="所有预算">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ConclusionCheckFlag" display-name="项目结题：检查">
+<depend name="integer" />
+</field>
+<field name="ConclusionCommentAcademy" display-name="学院审核意见">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="ConclusionCommentShelian" display-name="社团的审核意见">
+<depend name="maxLength" param0="500" />
+</field>
+<!-- <field name="ConclusionGeneral" display-name="项目结题:活动概要">
+<depend name="maxLength" param0="1000" />
+</field> -->
+<!-- <field name="ConclusionManuscript" display-name="项目结题:稿件情况">
+<depend name="maxLength" param0="500" />
+</field> -->
+<!-- <field name="ConclusionCommentClub" display-name="社团意见">
+<depend name="maxLength" param0="500" />
+</field> -->
+<field name="ConclusionCommentcTuanwei" display-name="团委意见">
+<depend name="maxLength" param0="500" />
+</field>
+<!-- <field name="ConclusionPlanNums" display-name="活动前期策划和组织人数">
+<depend name="maxLength" param0="5" />
+</field> -->
+<!-- <field name="ConclusionPlanNames" display-name="活动前期策划和组织参与人员">
+<depend name="maxLength" param0="500" />
+</field> -->
+<!-- <field name="ConclusionBroadcastNums" display-name="活动材料制作、宣传、表演人数">
+<depend name="maxLength" param0="5" />
+</field> -->
+<!-- <field name="ConclusionBroadcastNames" display-name="活动材料制作、宣传、表演人参与人员">
+<depend name="maxLength" param0="500" />
+</field> -->
+<!-- <field name="ConclusionelseNums" display-name="活动其他参与人数">
+<depend name="maxLength" param0="5" />
+</field> -->
+<!-- <field name="ConclusionelseNames" display-name="活动其他参与人员">
+<depend name="maxLength" param0="2000" />
+</field> -->
+<!-- <field name="ConclusionCost" display-name="活动总经费">
+<depend name="maxLength" param0="20" />
+</field> -->
+<!-- <field name="ConclusionIsSupport" display-name="结题时是否有赞助">
+<depend name="maxLength" param0="5" />
+</field> -->
+<!-- <field name="ConclusionSupportDetail" display-name="赞助情况">
+<depend name="maxLength" param0="500" />
+</field> -->
+<!-- <field name="ConclusionSummary" display-name="结题总结">
+<depend name="maxLength" param0="1000" />
+</field> -->
+<!-- <field name="ConclusionRemark" display-name="其他必要说明人">
+<depend name="maxLength" param0="1000" />
+</field> -->
+<!-- <field name="ActivityLevel" display-name="立项等级">
+<depend name="maxLength" param0="15" />
+<depend name="notselected" />
+</field> -->
+</form>
+</validation-config>

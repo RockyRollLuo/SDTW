@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="UserAccount" display-name="用户账号">
+<depend name="required" />
+<depend name="maxLength" param0="45" />
+</field>
+<field name="SurveyCode" display-name="问卷编码">
+<depend name="required" />
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Head_1ID" display-name="Head_1ID">
+<depend name="required" />
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Item_ID" display-name="Item_ID">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Item_Type" display-name="Item_Type">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Item_Submition" display-name="Item_Submition">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="Item_Score" display-name="Item_Score">
+<depend name="integer" />
+</field>
+<field name="Submit_Ip" display-name="Submit_Ip">
+<depend name="maxLength" param0="45" />
+</field>
+</form>
+</validation-config>

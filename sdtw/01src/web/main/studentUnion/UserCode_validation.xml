@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="OrgId" display-name="单位">
+<depend name="integer" />
+</field>
+<field name="DeptId" display-name="部门">
+<depend name="integer" />
+</field>
+<field name="Name" display-name="用户帐号">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="CnName" display-name="用户显示名">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="Code" display-name="用户编码">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="Gender" display-name="性别">
+<depend name="integer" />
+</field>
+<field name="Occupation" display-name="用户职务">
+<depend name="maxLength" param0="100" />
+</field>
+<field name="Grade" display-name="用户职称">
+<depend name="maxLength" param0="100" />
+</field>
+<field name="Dept" display-name="用户所属部门">
+<depend name="maxLength" param0="100" />
+</field>
+<field name="Orderby" display-name="排序">
+<depend name="integer" />
+</field>
+<field name="Principal" display-name="主管领导">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="PhoneNum" display-name="办公电话">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="MobilePhone" display-name="手机号码">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="Fax" display-name="传真号码">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="OfficeAddress" display-name="用户办公室地址">
+<depend name="maxLength" param0="200" />
+</field>
+<field name="Email" display-name="电子邮箱">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="HomeAddress" display-name="家庭地址">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="HomeZipcode" display-name="住址邮编">
+<depend name="maxLength" param0="12" />
+</field>
+<field name="DeptZipcode" display-name="单位邮编">
+<depend name="maxLength" param0="12" />
+</field>
+<field name="UserIpphome" display-name="用户Ip电话(代办改变否)">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="SkinId" display-name="皮肤Id号">
+<depend name="maxLength" param0="200" />
+</field>
+<field name="DispNum" display-name="显示的条数">
+<depend name="integer" />
+<depend name="integerRange" param0="1" param1="20" />
+</field>
+<field name="OrderbyField" display-name="按字段排序">
+<depend name="maxLength" param0="20" />
+</field>
+<field name="OrderStyle" display-name="排序方式">
+<depend name="maxLength" param0="11" />
+</field>
+<field name="MsgRefreTime" display-name="刷新时间间隔">
+<depend name="integer" />
+</field>
+<field name="Privilege" display-name="特权角色">
+<depend name="integer" />
+</field>
+<field name="Roles" display-name="用户角色">
+<depend name="integer" />
+</field>
+<field name="EditStyle" display-name="是否需要处理按钮">
+<depend name="integer" />
+</field>
+<field name="IsFirstLogon" display-name="是否初次登录">
+<depend name="integer" />
+</field>
+<field name="OperLog" display-name="操作日志">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="MdlPower" display-name="模块相关权限">
+<depend name="maxLength" param0="500" />
+</field>
+</form>
+</validation-config>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="ProjectId" display-name="志愿竞赛项目id">
+<depend name="integer" />
+</field>
+<field name="Sno" display-name="学生学号">
+<depend name="maxLength" param0="20" />
+</field>
+<field name="Honour" display-name="荣誉名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="SubmitFlag" display-name="提交标志">
+<depend name="integer" />
+</field>
+<field name="CheckComments" display-name="审批意见">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Academy" display-name="所属学院">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ProjectName" display-name="项目名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="TeamName" display-name="团队名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="TeamUnit" display-name="团队主管单位">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="RegisterId" display-name="登记时间">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ZipCode" display-name="邮政编码">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ContactAddress" display-name="通讯地址">
+<depend name="maxLength" param0="100" />
+</field>
+<field name="InspectionConclution" display-name="年度年检结论">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="AssLevel" display-name="评估等级">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="DutyFree" display-name="有无免税资格">
+<depend name="maxLength" param0="2" />
+</field>
+<field name="ProjectArea" display-name="项目领域">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ImpleArea" display-name="实施领域">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ParticipateNum" display-name="参与项目运作人数">
+<depend name="integer" />
+</field>
+<field name="FulltimeNum" display-name="专职人员人数">
+<depend name="integer" />
+</field>
+<field name="Award" display-name="曾获何等奖励">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Content" display-name="项目内容">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Meanings" display-name="项目背景意义">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="DisiredResults" display-name="项目预计效果">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="ImplePlace" display-name="项目实施地点">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Promotion" display-name="项目实施地点">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Specialist" display-name="项目特色">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="BeneFicaiaries" display-name="受益对象">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Benenum" display-name="预计直接受益人数">
+<depend name="integer" />
+</field>
+<field name="MajorName" display-name="项目负责人姓名">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="MajorSex" display-name="项目负责人性别">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="MajorBirth" display-name="项目负责人出生年月">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="MajorDuty" display-name="项目负责人工作单位及职务">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="MajorPolista" display-name="项目负责人政治面貌">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="MajorPhone" display-name="项目负责人办公电话">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="MajorPhone2" display-name="项目负责人手机">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="MajorEmail" display-name="项目负责人邮箱">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="GuideTeacherName" display-name="项目指导教师姓名">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="GuideTeacherSex" display-name="项目指导教师性别">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="GuideTeacherBirth" display-name="项目指导教师出生年月">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="GuideTeacherDuty" display-name="项目指导教师工作单位及职务">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="GuideTeacherPolista" display-name="项目指导教师政治面貌">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="GuideTeacherPhone" display-name="项目指导教师办公电话">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="GuideTeacherPhone2" display-name="项目指导教师手机">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="GuiderTeacherEmail" display-name="项目指导教师邮箱">
+<depend name="maxLength" param0="45" />
+</field>
+</form>
+</validation-config>

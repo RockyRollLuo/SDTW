@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="Name" display-name="名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Academy" display-name="学院">
+<depend name="integer" />
+</field>
+<field name="Code" display-name="编码">
+<depend name="maxLength" param0="45" />
+</field>
+</form>
+</validation-config>

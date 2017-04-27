@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="Content" display-name="短消息内容">
+</field>
+<field name="Subject" display-name="短消息标题">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="MsgGrade" display-name="短消息级别">
+<depend name="integer" />
+</field>
+<field name="SendId" display-name="发送人">
+<depend name="integer" />
+</field>
+<field name="ReceiveIds" display-name="接受人">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="IfSee" display-name="是否查看">
+<depend name="integer" />
+</field>
+<field name="Receipt" display-name="是否回执">
+<depend name="integer" />
+</field>
+<field name="SmsStyle" display-name="短消息级别">
+<depend name="integer" />
+</field>
+<field name="AttachIds" display-name="相关附件ids">
+<depend name="maxLength" param0="200" />
+</field>
+<field name="RemUrl" display-name="跳转地址">
+<depend name="maxLength" param0="200" />
+</field>
+<field name="RemindSys" display-name="RemindSys">
+<depend name="maxLength" param0="20" />
+</field>
+<field name="IsEnable" display-name="是否可用">
+<depend name="integer" />
+</field>
+</form>
+</validation-config>

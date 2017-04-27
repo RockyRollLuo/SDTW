@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="SchoolYear" display-name="学年">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Type" display-name="申请表类型">
+<depend name="integer" />
+</field>
+<field name="AddAccount" display-name="添加账号">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="XyCheckFlag" display-name="学院审核标志">
+<depend name="integer" />
+</field>
+<field name="TwCheckFlag" display-name="团委审核标志">
+<depend name="integer" />
+</field>
+<field name="ModifyFlag" display-name="是否可修改标志">
+<depend name="integer" />
+</field>
+<field name="XyReport" display-name="学院提交标志">
+<depend name="integer" />
+</field>
+<field name="TwReport" display-name="团委发布标志">
+<depend name="integer" />
+</field>
+<field name="BelongAcademy" display-name="所属单位">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Sno" display-name="学号">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Name" display-name="姓名">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Academy" display-name="学院">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Grade" display-name="年级">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Major" display-name="专业">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Sex" display-name="性别">
+<depend name="maxLength" param0="2" />
+</field>
+<field name="Nation" display-name="民族">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="SNative" display-name="籍贯">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Photo" display-name="照片">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Birthday" display-name="出生年月">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Polistatu" display-name="政治面貌">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Phone" display-name="联系电话">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Zhibu" display-name="支部">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Duty" display-name="职务">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="WorkUnit" display-name="所在组织（志愿）">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="VolstaTime" display-name="何时起参加支援服务（志愿">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="VolservTime" display-name="总时长（志愿、社团">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ClubName" display-name="社团名称（社团）">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ClubType" display-name="所在社团属于（社团）">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="JoinClubInfo1" display-name="参加校级社团活动情况（社团）">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="JoinClubInfo2" display-name="参加院级社团活动情况（社团）">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ClubInfo" display-name="社团简介（社团）">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="Education" display-name="教育程度">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="WorkExp" display-name="工作经历">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="Resume" display-name="个人简历">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="Award" display-name="获奖情况">
+<depend name="maxLength" param0="500" />
+</field>
+</form>
+</validation-config>

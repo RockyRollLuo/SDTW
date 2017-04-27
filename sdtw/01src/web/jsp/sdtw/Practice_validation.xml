@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="PracticeCode" display-name="项目编码">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="PracticeName" display-name="项目名">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="PracticeSubject" display-name="项目实践主题">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="Starttime" display-name="项目开始实践">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Endtime" display-name="项目结束时间">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Funding" display-name="经费资助">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="TeamDemand" display-name="团队组织要求">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Schedule" display-name="立项程序及日程">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="WorkDemand" display-name="工作要求">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="OtherExplain" display-name="其他说明">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Addtime" display-name="项目添加时间">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="AddAccount" display-name="添加用户名">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="AddUserrole" display-name="添加用户编号">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="AddAcademy" display-name="添加单位">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="AddFilelist" display-name="添加文件列表">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Remark" display-name="备用">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Remark2" display-name="备用">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Remark3" display-name="备用">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Remark4" display-name="备用">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Remark5" display-name="备用">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Remark6" display-name="备用">
+<depend name="maxLength" param0="45" />
+</field>
+</form>
+</validation-config>

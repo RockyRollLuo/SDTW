@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="Ck1" display-name="通知名称">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="Ck3" display-name="通知内容">
+<depend name="maxLength" param0="200" />
+</field>
+</form>
+</validation-config>

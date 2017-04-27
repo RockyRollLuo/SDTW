@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="Type" display-name="团队成员或志愿者">
+<depend name="maxLength" param0="5" />
+</field>
+<field name="Sno" display-name="学号">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Name" display-name="姓名">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Duty" display-name="团队职务">
+<depend name="maxLength" param0="45" />
+</field>
+</form>
+</validation-config>

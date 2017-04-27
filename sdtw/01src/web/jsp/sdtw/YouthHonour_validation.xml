@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="SchoolYear" display-name="学年">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="AyCheckFlag" display-name="学院审核标志">
+<depend name="integer" />
+</field>
+<field name="TwCheckFlag" display-name="团委审核标志">
+<depend name="integer" />
+</field>
+<field name="ModifyFlag" display-name="是否可修改标志">
+<depend name="integer" />
+</field>
+<field name="XyReport" display-name="学院提交标志">
+<depend name="integer" />
+</field>
+<field name="TwReport" display-name="团委发布标志">
+<depend name="integer" />
+</field>
+<field name="BelongAcademy" display-name="所属单位">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Attachids" display-name="附件">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Val1" display-name="va1">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Val2" display-name="va2">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Val3" display-name="va3">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Val4" display-name="va4">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Val5" display-name="va5">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Val6" display-name="va6">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Val7" display-name="va7">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Val8" display-name="va8">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Val9" display-name="va9">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Val10" display-name="va10">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Val11" display-name="va11">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Val12" display-name="va12">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Val13" display-name="va13">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Val14" display-name="va14">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Val15" display-name="va15">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Val16" display-name="va16">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Val17" display-name="va17">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Val21" display-name="va21">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Val18" display-name="va18">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Val19" display-name="va19">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Val20" display-name="va20">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Val22" display-name="va22">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Text1" display-name="text1">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="Text2" display-name="text2">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="Text3" display-name="text3">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="Text4" display-name="text4">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="Text5" display-name="text5">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="Text6" display-name="text6">
+<depend name="maxLength" param0="500" />
+</field>
+</form>
+</validation-config>

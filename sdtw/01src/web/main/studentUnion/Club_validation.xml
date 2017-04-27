@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="ClubName" display-name="社团名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ClubCode" display-name="社团编码">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ClubId" display-name="登录账号">
+<depend name="maxLength" param0="20" />
+</field>
+<field name="ClubType" display-name="社团类别">
+<depend name="maxLength" param0="20" />
+</field>
+<field name="Tenet" display-name="宗旨">
+<depend name="maxLength" param0="100" />
+</field>
+<field name="ClubProfile" display-name="简介">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="Academy" display-name="学院">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Teacher" display-name="教师">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Chairman" display-name="拟负责人">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Sponsor" display-name="发起人情况">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="Feasibility" display-name="成立原因">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="CommentTea" display-name="指导教师意见">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="CommentAcademy" display-name="学院审核意见">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="ApplyRecruitment" display-name="申请纳新">
+<depend name="integer" />
+</field>
+<field name="ManagerFlag" display-name="是否添加负责人">
+<depend name="integer" />
+</field>
+<field name="TeaFlag" display-name="是否添加指导教师">
+<depend name="integer" />
+</field>
+<field name="CheckFlag" display-name="审核">
+<depend name="maxLength" param0="20" />
+</field>
+<field name="Commenttw" display-name="团委审核意见">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="Clubqq" display-name="联系方式QQ">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ClubeMail" display-name="邮箱">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ClubPubAccount" display-name="公众号">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="AddPersonName" display-name="添加人姓名">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="TeacherModifyFlag" display-name="指导教师是否更换">
+<depend name="integer" />
+</field>
+<field name="CancleReason" display-name="注销原因">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="CancleCheckFlag" display-name="注销状态">
+<depend name="integer" />
+</field>
+<field name="CancleCommentXy" display-name="注销原因学院">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="CancleCommentTw" display-name="注销原因团委">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="City" display-name="城市">
+<depend name="maxLength" param0="50" />
+</field>
+</form>
+</validation-config>

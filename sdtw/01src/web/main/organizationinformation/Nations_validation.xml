@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="Name" display-name="名字">
+<depend name="required" />
+<depend name="maxLength" param0="45" />
+</field>
+</form>
+</validation-config>

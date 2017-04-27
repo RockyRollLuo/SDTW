@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="ProductionCode" display-name="作品编码">
+<depend name="maxLength" param0="20" />
+</field>
+<field name="ProductionName" display-name="作品名称">
+<depend name="maxLength" param0="100" />
+</field>
+<field name="Academy" display-name="学院全称">
+<depend name="maxLength" param0="100" />
+</field>
+<field name="Declarer" display-name="申报者姓名（集体名称）">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ProductionType" display-name="作品类别">
+<depend name="maxLength" param0="20" />
+</field>
+<field name="DeclarerRole" display-name="申报类别">
+<depend name="maxLength" param0="10" />
+</field>
+<field name="Remark" display-name="备注">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="AddFilelist" display-name="添加文件列表">
+<depend name="maxLength" param0="200" />
+</field>
+<field name="CheckCommentXy" display-name="学院意见">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="CheckCommentTw" display-name="团委意见">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="Leader" display-name="负责人">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="LeaderId" display-name="负责人ID">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="CheckFlagXy" display-name="考核状态">
+<depend name="integer" />
+</field>
+<field name="CheckPersonXy" display-name="考核人">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="CheckFlagTw" display-name="考核状态">
+<depend name="integer" />
+</field>
+<field name="CheckPersonTw" display-name="考核人">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Award" display-name="奖励荣誉">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ProjectName" display-name="所属项目">
+<depend name="maxLength" param0="45" />
+</field>
+</form>
+</validation-config>

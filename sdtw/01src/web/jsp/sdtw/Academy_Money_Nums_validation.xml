@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="Sno" display-name="学院">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Money" display-name="经费">
+<depend name="double" />
+</field>
+<field name="Type" display-name="方式">
+<depend name="integer" />
+</field>
+</form>
+</validation-config>

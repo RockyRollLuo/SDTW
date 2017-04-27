@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="Reason" display-name="审核意见">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Submitflag" display-name="是否提交">
+<depend name="integer" />
+</field>
+<field name="Printcode" display-name="打印编号">
+<depend name="maxLength" param0="20" />
+</field>
+<field name="Sno" display-name="学号">
+<depend name="maxLength" param0="20" />
+</field>
+<field name="Academy" display-name="学院">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Rownumstr" display-name="rowspan">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Value1" display-name="姓名">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Value2" display-name="政治面貌">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Value3" display-name="学院下分院">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Value4" display-name="专业">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Value5" display-name="年级">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Listarray1" display-name="主题教育">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Listarray2" display-name="文化艺术">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Listarray3" display-name="体育健康">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Listarray4" display-name="科技创新">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Listarray5" display-name="实践服务">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Listarray6" display-name="就业创业">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Listarray7" display-name="志愿服务">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Listarray8" display-name="社会工作">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Listarray9" display-name="社团经历">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Listarray10" display-name="学术论坛">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="Checkflag" display-name="0未审核 ，2 未通过 ，1通过">
+<depend name="integer" />
+</field>
+</form>
+</validation-config>

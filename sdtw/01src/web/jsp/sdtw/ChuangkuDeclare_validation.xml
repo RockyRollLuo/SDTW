@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="CkId" display-name="参与的创库通知的id">
+<depend name="integer" />
+</field>
+<field name="Academy" display-name="学院">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="AddFilelist" display-name="上传文件列表">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="AddAccount" display-name="添加描述">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="CheckFlag" display-name="审核状态">
+<depend name="integer" />
+</field>
+<field name="Cdp1" display-name="负责人姓名">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Cdp2" display-name="负责人学院">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Cdp3" display-name="负责人学号">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Cdp4" display-name="负责人联系方式">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Cd1" display-name="项目名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Cd2" display-name="项目分类">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Cd3" display-name="项目分组">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Cd4" display-name="技术可行性分析">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="Cd5" display-name="市场可行性分析">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="Cd6" display-name="项目推进时间分析">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="Cd7" display-name="项目阶段">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Cd8" display-name="是否有社会资金">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Cd9" display-name="社会资金额度">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Cd10" display-name="计划注册资本金额">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Cd11" display-name="创业团队自有资金">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Cd12" display-name="团队已经经营该项目时间">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Cd13" display-name="盈利情况">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Cd14" display-name="备注">
+<depend name="maxLength" param0="255" />
+</field>
+</form>
+</validation-config>

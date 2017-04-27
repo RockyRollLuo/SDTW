@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="Sno" display-name="学号">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="Sname" display-name="姓名">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="FolderId" display-name="团校培训报名id">
+<depend name="integer" />
+</field>
+<field name="CheckFile" display-name="作业附件">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="CheckFileEstimate" display-name="作业评价">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="DateRate" display-name="考勤">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="CheckReport" display-name="结题报告">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="CheckReportEstimate" display-name="结题报告评价">
+<depend name="maxLength" param0="2000" />
+</field>
+</form>
+</validation-config>

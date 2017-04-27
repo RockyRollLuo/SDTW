@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="Pid" display-name="上级模块">
+<depend name="integer" />
+</field>
+<field name="Name" display-name="模块名称">
+<depend name="maxLength" param0="200" />
+</field>
+<field name="Code" display-name="编码">
+<depend name="maxLength" param0="200" />
+</field>
+<field name="MoudleGrade" display-name="级别">
+<depend name="integer" />
+</field>
+<field name="MoudleType" display-name="类型">
+<depend name="integer" />
+</field>
+<field name="IsDept" display-name="部门模块">
+<depend name="integer" />
+</field>
+<field name="ToUrl" display-name="连接Url">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="OrderNum" display-name="排序">
+<depend name="integer" />
+</field>
+<field name="IsEnable" display-name="是否可用">
+<depend name="integer" />
+</field>
+<field name="OpLog" display-name="操作日志">
+<depend name="maxLength" param0="1000" />
+</field>
+</form>
+</validation-config>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="ZhikuId" display-name="志库通知的id">
+<depend name="integer" />
+</field>
+<field name="Academy" display-name="学院">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Name" display-name="项目名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Teamname" display-name="团队名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Unit" display-name="学院">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Type" display-name="项目分组">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Intention" display-name="项目活动背景及目的">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="Arrange" display-name="活动流程">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="Process" display-name="预期成果">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="Expectresults" display-name="预期成果">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="Results" display-name="已取得成果">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="Cost1" display-name="（项目情况）交通费">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Cost2" display-name="（项目情况）住宿费">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Cost3" display-name="（项目情况）其他1">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Cost4" display-name="（项目情况）其他2">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Cost5" display-name="（项目情况）其他3">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Cost6" display-name="（项目情况）其他4">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Totalcost" display-name="（项目情况）总计">
+<depend name="maxLength" param0="45" />
+</field>
+</form>
+</validation-config>

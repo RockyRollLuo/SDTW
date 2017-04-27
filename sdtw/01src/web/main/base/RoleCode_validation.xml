@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="Name" display-name="角色名">
+<depend name="required"></depend>
+<depend name="maxLength" param0="200" />
+</field>
+<field name="Code" display-name="角色代码">
+<depend name="required"></depend>
+<depend name="maxLength" param0="200" />
+</field>
+<field name="FunIds" display-name="功能点权限">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="FunCodes" display-name="功能点权限代码">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="MoudleIds" display-name="模块权限">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="MoudleCode" display-name="模块权限代码">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="OrderNum" display-name="排序">
+<depend name="integer" />
+</field>
+<field name="IsEnable" display-name="有效标志">
+<depend name="integer" />
+</field>
+<field name="OpLog" display-name="操作日志">
+<depend name="maxLength" param0="1000" />
+</field>
+</form>
+</validation-config>

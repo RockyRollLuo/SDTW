@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="Clubname" display-name="社团名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Activityid" display-name="活动id">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Activityname" display-name="活动名称">
+<depend name="maxLength" param0="100" />
+</field>
+<field name="Sno" display-name="学号">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Sname" display-name="姓名">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Checkaccount" display-name="审核账号">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Checkflag" display-name="审核状态">
+<depend name="integer" />
+</field>
+<field name="Issafe" display-name="issafe">
+<depend name="integer" />
+</field>
+<field name="Traffictool" display-name="交通工具">
+<depend name="maxLength" param0="100" />
+</field>
+<field name="Activityprocedure" display-name="活动程序">
+<depend name="maxLength" param0="1000" />
+</field>
+<field name="Activitysecurity" display-name="安全保障措施">
+<depend name="maxLength" param0="1000" />
+</field>
+<field name="Istell" display-name="是否将本次活动的详细情况告知了父母">
+<depend name="maxLength" param0="10" />
+</field>
+<field name="Isbuy" display-name="和父母商议是否购买保险">
+<depend name="maxLength" param0="10" />
+</field>
+<field name="Tellway" display-name="告知父母的方式(面谈/电话/信件)">
+<depend name="maxLength" param0="10" />
+</field>
+<field name="Iswilling" display-name="父母是否知道这次活动是自愿参加">
+<depend name="maxLength" param0="10" />
+</field>
+<field name="Isvoluntary" display-name="父母是否知道这次活动是由学生社团自发组织">
+<depend name="maxLength" param0="10" />
+</field>
+<field name="Isresponsible" display-name="如万一在活动中发生任何意外情况，父母是否同意责任自负">
+<depend name="maxLength" param0="10" />
+</field>
+</form>
+</validation-config>

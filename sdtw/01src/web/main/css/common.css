@@ -1,0 +1,173 @@
+body {
+   margin:0;
+   background:url(../images/background.gif);
+/*    background:#F8F8FF; */
+   font-family:Microsoft YaHei;
+}
+
+
+/*--------------------location-table--------------------*/
+
+.location-table{
+	width:98%;
+    font-size:17px;
+}
+
+.location-title{		/*“您的位置”*/
+	color:#317eb4;
+	font-weight:bold;
+}
+
+.location-help{		   /*“系统帮助”*/
+	font-size:13px;
+	padding-left:2px;
+}
+
+
+
+/*--------------------command-table--------------------*/
+
+.command-table{
+	width:98%;	
+	margin-top:-10px;
+}
+
+.command-table td{
+	text-align:right;
+}
+
+.command-table a{
+	cursor:pointer;
+}
+
+.command-table img{		/*图片大小*/
+	height:30px;
+	border:0;
+}
+
+
+
+
+
+/*--------------------content-table--------------------*/
+
+.content-table{
+	width:100%;
+	padding-right:10px;
+	font-size:12px;
+	border-collapse:collapse;/*合并边框间隙*/
+	empty-cells:show;
+	text-align:center;  /*让所有格中的元素居中*/
+	/*margin-top:-5px;*/   
+
+}
+
+.content-table tr{          /*行高*/
+	height:35px;	
+}
+
+.content-table th{			/*表头*/
+	padding:.5em;
+	border:1px solid #fff;
+	color:#fff;                                 
+	background:#3992d0;
+}
+.content-table td{			/*单元格*/
+	padding:.5em;
+	border:1px solid #fff;
+}
+
+.content-table tr.even td{  /*表格颜色隔行显示*/
+	background:#e5f1f4;   /*深色*/
+}
+.content-table tr.odd td{
+	background:#f8fbfc; /*浅色*/
+}
+
+.content-table .button{     /*蓝底白字透明按钮，用于input样式类*/
+	background:transparent;   
+	border:none;
+	color:#fff;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+td a:link,td a:visited,td a:active{ /*表格中可点的链接*/
+	color:#3992d0;
+	text-decoration:none;
+}
+
+td a:hover{                 /*超链接鼠标经过变色*/
+	color:red;
+	cursor:pointer;
+}
+
+th a:link,th a:visited,th a:active{/*蓝底白字的链接*/
+	color:#fff;
+	text-decoration:none;
+}
+
+th a:hover{                 /*超链接鼠标经过变色*/
+	color:red;
+}
+
+
+/*--------------------frame-table(导入导出的框的样式)--------------------*/
+.frame-table{
+	background:#fff;
+	border:1.5px solid #3992d0; 
+	border-collapse:collapse;   /*边框成一条线*/
+	width:500px;
+	height:250px;
+	margin:50px auto;
+}
+
+.frame-table tr:first-child,.frame-table tr:last-child{        /*第一个tr，及最后一个tr，设置行高*/    
+	height:40px;
+}
+
+.frame-table td{				/*单元格*/
+	border:1.5px solid #3992d0;
+	text-align:center;
+	font-size:14px;
+}
+
+.frame-table th{				/*表头及末一行*/
+	border:1.5px solid #3992d0;
+	color:#fff;                                 
+	background:#3992d0;
+}
+
+.frame-table .button{           /*input蓝底白字透明*/
+	background:transparent;   
+	border:none;
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+
+
+
+
+
+/*--------------------------tabs-table全部，待审核，审核通过，审核未通过-------------------------------*/
+.tabs-table tr{
+	height:25px;
+}
+.tabs-table tr td{
+	width:80px;
+	text-align:center;	
+}
+.labelon {
+	background:#e5f1f4;
+	font-size:13px;
+	cursor:hand; 
+}
+.labeloff {
+	background:#3992d0; 
+	font-size:12px;
+	color:#fff;
+	cursor:hand; 
+}

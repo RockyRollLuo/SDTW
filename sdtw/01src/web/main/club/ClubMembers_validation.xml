@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="MemberName" display-name="名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="MemberSex" display-name="性别">
+<depend name="maxLength" param0="10" />
+</field>
+<field name="MemberBrith" display-name="生日">
+<depend name="maxLength" param0="10" />
+</field>
+<field name="MemberPolitics" display-name="政治面貌">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="MemberBirthplace" display-name="籍贯">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="MemberClubname" display-name="社团名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Memberclubcode" display-name="社团code">
+<depend name="maxLength" param0="10" />
+</field>
+<field name="MemberDuty" display-name="职责">
+<depend name="notselected" />
+<depend name="maxLength" param0="50" />
+</field>
+<field name="MemberAcademy" display-name="学院">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="MemberMajor" display-name="专业">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="MemberGrade" display-name="年级">
+<depend name="maxLength" param0="10" />
+</field>
+<field name="MemberEmail" display-name="邮箱">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="MemberPhone" display-name="手机">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Memberqq" display-name="QQ">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Memberwx" display-name="微信">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="MProfile" display-name="个人简介">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="MExperience" display-name="社团工作经历">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="MCommentAcademy" display-name="学院意见">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="MCommentAcatw" display-name="团委意见">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="AddPerson" display-name="添加人">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="ModiPerson" display-name="修改人">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="MemberSno" display-name="学号">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="IsManager" display-name="是否团长">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="CheckFlag" display-name="是否审核">
+<depend name="integer" />
+</field>
+<field name="Remark" display-name="备注">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="Identity" display-name="学历">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ApplyContent" display-name="个人简介1">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="ManagerGeneration" display-name="是否元老">
+<depend name="integer" />
+</field>
+<field name="CommentXy" display-name="指导单位审核意见">
+<depend name="maxLength" param0="500" />
+</field>
+</form>
+</validation-config>

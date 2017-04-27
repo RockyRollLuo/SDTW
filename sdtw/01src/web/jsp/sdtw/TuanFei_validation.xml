@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="FAcademy" display-name="学院名称">
+<depend name="maxLength" param0="25" />
+</field>
+<field name="FTocharge" display-name="应缴团费">
+<depend name="maxLength" param0="15" />
+</field>
+<field name="FCharged" display-name="已缴团费">
+<depend name="maxLength" param0="10" />
+</field>
+<field name="FAcademyPersonNum" display-name="学院人数">
+<depend name="maxLength" param0="10" />
+</field>
+<field name="FConfine" display-name="是否确认">
+<depend name="maxLength" param0="10" />
+</field>
+</form>
+</validation-config>

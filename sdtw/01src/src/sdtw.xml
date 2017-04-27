@@ -1,0 +1,9 @@
+<Context path="/sdfz" docBase="D:\sdtw\01src\web" debug="0" reloadable="true" crossContext="true">
+	<Resource name="jdbc/ds" scope="Shareable" auth="Container"   type="javax.sql.DataSource"
+		factory="org.apache.commons.dbcp.BasicDataSourceFactory" maxWait="10000" maxActive="20" 
+		url="jdbc:mysql://113.128.222.6/tuanwei?characterEncoding=utf-8" driverClassName="com.mysql.jdbc.Driver" 
+		maxIdle="10" removeAbandoned="true" removeAbandonedTimeout="60" username="tuanwei" password="tuanwei_sd_2017" 
+		autoReconnectForPool="true" userUnicode="true" characterEncoding="utf-8"
+     />
+</Context>   
+

@@ -1,0 +1,195 @@
+body {
+   margin:0;
+   background:url(../images/background.gif);
+/*    background:#F8F8FF; */
+   font-family:Microsoft YaHei;
+   	padding-bottom:150px;
+	margin-tottom:150px;
+}
+
+
+/*--------------------location-table--------------------*/
+
+.location-table{
+	width:89%;
+	margin:0 auto;
+    font-size:17px;
+}
+
+.location-title{		/*�����λ�á�*/
+	color:#666;
+	font-weight:bold;
+}
+
+.location-help{		   /*��ϵͳ����*/
+	font-size:13px;
+	padding-left:2px;
+}
+
+
+
+/*--------------------command-table--------------------*/
+
+.command-table{
+	width:89%;	
+	margin:0 auto;
+	margin-top:-10px;
+}
+
+.command-table td{
+	text-align:right;
+}
+
+.command-table a{
+	cursor:pointer;
+}
+
+.command-table img{		/*ͼƬ��С*/
+	height:30px;
+	border:0;
+}
+
+
+
+
+
+/*--------------------content-table--------------------*/
+
+.content-table{
+	margin:auto;
+	width:89%;
+	padding-right:10px;
+	font-size:12px;
+	border-collapse:collapse;/*�ϲ��߿��϶*/
+	empty-cells:show;
+	text-align:center;  /*--�����и��е�Ԫ�ؾ���*/
+
+}
+
+.content-table tr{          /*�и�*/
+	height:35px;	
+}
+
+.content-table th{			/*��ͷ*/
+	padding:.5em;
+	border:1px solid #fff;
+	color:#666;                                 
+	background:#DCDCDC;
+}
+.content-table td{			/*��Ԫ��*/
+	padding:.5em;
+	border:1px solid #fff;
+}
+
+.content-table tr.even td{  /*�����ɫ������ʾ*/
+	background:#FFF;   /*��ɫ*/
+}
+.content-table tr.odd td{
+	background:#F5F5F5; /*ǳɫ*/
+}
+
+.content-table .button{     /*���װ���͸����ť������input��ʽ��*/
+	background:transparent;   
+	border:none;
+	color:#666;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+td a:link,td a:visited,td a:active{ /*����пɵ������*/
+	/*color:#666;*/
+	color:#9c0c15;
+	text-decoration:none;
+}
+
+td a:hover{                 /*��������꾭���ɫ*/
+	color:red;
+	cursor:pointer;
+}
+
+th a:link,th a:visited,th a:active{/*���װ��ֵ�����*/
+	color:#666;
+	text-decoration:none;
+}
+
+th a:hover{                 /*��������꾭���ɫ*/
+	color:red;
+}
+
+
+/*--------------------frame-table(���뵼���Ŀ����ʽ)--------------------*/
+.frame-table{
+	background:#fff;
+	border:1.5px solid #DCDCDC;; 
+	border-collapse:collapse;   /*�߿��һ����*/
+	width:500px;
+	height:250px;
+	margin:50px auto;
+}
+
+.frame-table tr:first-child,.frame-table tr:last-child{        /*��һ��tr�������һ��tr�������и�*/    
+	height:40px;
+}
+
+.frame-table td{				/*��Ԫ��*/
+	border:1.5px solid #DCDCDC;;
+	text-align:center;
+	font-size:14px;
+}
+
+.frame-table th{				/*��ͷ��ĩһ��*/
+	border:1.5px solid #DCDCDC;;
+	color:#666;                                 
+	background:#DCDCDC;
+}
+
+.frame-table .button{           /*input*/
+	background:transparent;   
+	border:none;
+	color:#666;
+	font-size:14px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+
+
+
+/*--------------------------tabs-tableȫ��������ˣ����ͨ�����δͨ��-------------------------------*/
+.tabs-table{
+	padding-left:80px;
+}
+.tabs-table tr{
+	height:25px;
+}
+.tabs-table tr td{
+	width:100px;
+	text-align:center;	
+}
+.labelon {
+	background:#F5F5F5;
+	font-size:13px;
+	cursor:hand; 
+}
+.labeloff {
+	background:#DCDCDC; 
+	font-size:12px;
+	color:#fff;
+	cursor:hand; 
+}
+
+/*--------------------------ȫ��������ˣ����ͨ�����δͨ��------------------------------
+.labelon {
+      background-image:url("../images/work/labelover.jpg");
+      font-size:13px;
+      padding-top:4px;
+      cursor: hand; 
+  }
+  .labeloff {
+      background-image:url('../images/work/labeloff.jpg'); 
+      font-size:12px;
+      color:#DDA;
+      padding-top:4px;
+      cursor: hand; 
+  }
+-*/

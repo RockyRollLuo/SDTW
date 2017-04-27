@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="SubjectCode" display-name="课题编码">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="SubjectName" display-name="课题名称">
+<depend name="required" />
+<depend name="maxLength" param0="100" />
+</field>
+<field name="Principal" display-name="发布人">
+<depend name="required" />
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Institution" display-name="发布单位">
+<depend name="required" />
+<depend name="maxLength" param0="50" />
+</field>
+<field name="Contact" display-name="联系方式">
+<depend name="required" />
+<depend name="phone" />
+<depend name="maxLength" param0="45" />
+</field>
+</form>
+</validation-config>

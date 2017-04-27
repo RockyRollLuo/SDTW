@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="AttachType" display-name="附件种类">
+<depend name="integer" />
+</field>
+<field name="UploadType" display-name="附件类型">
+<depend name="maxLength" param0="200" />
+</field>
+<field name="UploadName" display-name="上传名称">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="AttachSize" display-name="附件尺寸">
+<depend name="integer" />
+</field>
+<field name="GenerateName" display-name="生成名称">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="RelationId" display-name="相关Id">
+<depend name="integer" />
+</field>
+</form>
+</validation-config>

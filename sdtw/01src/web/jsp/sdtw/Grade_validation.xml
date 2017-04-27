@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="Name" display-name="名称">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="RxDate" display-name="年度">
+<depend name="integer" />
+</field>
+<field name="OpName" display-name="操作人">
+<depend name="integer" />
+</field>
+<field name="Beizhu" display-name="备注">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="IsEnable" display-name="是否可用">
+<depend name="integer" />
+</field>
+<field name="Academy" display-name="学院">
+<depend name="integer" />
+</field>
+</form>
+</validation-config>

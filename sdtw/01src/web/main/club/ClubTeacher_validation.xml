@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="ClubName" display-name="社团名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ClubCode" display-name="社团code">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="TeaName" display-name="姓名">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="TeaSex" display-name="性别">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="TeaAge" display-name="年龄">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="TeaNation" display-name="民族">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="TeaPolitics" display-name="政治面貌">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="TeaBirthplace" display-name="籍贯">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="TeaDuty" display-name="职位">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="TeaAcademy" display-name="所在学院（部门">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="TeaTel" display-name="联系方式">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="TeaPhone" display-name="手机">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="TeaEmail" display-name="邮箱">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="TeaAcademic" display-name="个人情况简介">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="CommentAcatw" display-name="commentAcatw">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="CommentClubunion" display-name="commentClubunion">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="CommentTw" display-name="团委评价">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="AddPerson" display-name="添加人">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="ModiPerson" display-name="修改人">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="Generation" display-name="元老">
+<depend name="integer" />
+</field>
+<field name="CheckFlag" display-name="审核状态">
+<depend name="integer" />
+</field>
+<field name="CommentXy" display-name="学院意见">
+<depend name="maxLength" param0="45" />
+</field>
+</form>
+</validation-config>

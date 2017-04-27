@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="PracticeId" display-name="所参加的实践项目ID">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ReportId" display-name="结题表Id">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="TeamId" display-name="团队id">
+<depend name="integer" />
+</field>
+<field name="Sno" display-name="学号">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="SName" display-name="姓名">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Sex" display-name="性别">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Academy" display-name="院系">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Grade" display-name="年级">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="IdCard" display-name="身份证">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Address" display-name="家庭住址">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Phone" display-name="联系方式">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Email" display-name="邮箱">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Duty" display-name="承担工作">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Type2" display-name="类别">
+<depend name="integer" />
+</field>
+<field name="Identity" display-name="学历">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Remark" display-name="备用">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Remark2" display-name="备用">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Remark3" display-name="备用">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Remark4" display-name="备用">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Honor" display-name="荣誉">
+<depend name="maxLength" param0="45" />
+</field>
+</form>
+</validation-config>

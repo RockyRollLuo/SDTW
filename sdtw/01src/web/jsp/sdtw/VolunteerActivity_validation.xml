@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="AddFilelist" display-name="上传文件列表">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="Activityname" display-name="活动名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ActivityKind" display-name="活动类别">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ActivityLevel" display-name="活动级别">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ActivityPrincipal" display-name="负责人">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ActivityPlace" display-name="活动地点">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="PersonNumber" display-name="所需人数">
+<depend name="integer" />
+</field>
+<field name="Contact" display-name="联系方式">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="GuideTeacher" display-name="指导教师">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ActivityExplain" display-name="详细信息">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="ApplicationRangeType" display-name="申请范围分类">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ApplicationRange" display-name="申请范围">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="LaunchAcademy" display-name="申办单位">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="HonourList" display-name="荣誉列表">
+<depend name="maxLength" param0="255" />
+</field>
+<field name="CheckFlag" display-name="审核标志">
+<depend name="integer" />
+</field>
+<field name="AddAccount" display-name="添加账号">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ModifyAccount" display-name="修改账号">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="CheckAccount" display-name="审核账号">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Academy" display-name="所属学院">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="Settop" display-name="置顶标志">
+<depend name="integer" />
+</field>
+</form>
+</validation-config>

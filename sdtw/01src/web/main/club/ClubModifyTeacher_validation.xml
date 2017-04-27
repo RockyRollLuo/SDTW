@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="ClubName" display-name="社团名称">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ClubType" display-name="社团类别">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ClubAcademy" display-name="原指导单位">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ClubAcadeMyNew" display-name="新指导单位">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="CommentXy" display-name="原指导单位意见">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="AddPerson" display-name="申请人">
+<depend name="maxLength" param0="50" />
+</field>
+<field name="ModiPerson" display-name="修改人">
+<depend name="maxLength" param0="50" />
+</field>
+</form>
+</validation-config>

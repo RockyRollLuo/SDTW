@@ -1,0 +1,173 @@
+<%@page import="java.util.HashMap"%>
+<%@page import="java.util.Map"%>
+<%@page import="java.util.List"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="com.xietong.software.sdtw.db.Practice_Declare_Teammember"%>
+<%@page import="java.util.Date"%>
+<%@page import="com.xietong.software.sdtw.db.Practice_Declare"%>
+<%@page import="com.xietong.software.common.HeadConst"%>
+<%@page import="com.xietong.software.util.ParamUtils"%>
+<%@page import="com.xietong.software.common.HtmlTool"%>
+<%@page import="com.xietong.software.base.Power"%>
+<%@page import="com.xietong.software.util.Tool"%>
+<%@page import="com.xietong.software.common.UserInfo"%>
+<%@ page contentType="text/html;charset=utf-8" %>
+<%
+UserInfo ui = Tool.getUserInfo(request);
+UserInfo userInfo =null;
+if(ui.hasFunPower(Power.USERSTUDENTPOWER)){
+	userInfo = ui;
+}
+if(userInfo == null){
+	out.print(HtmlTool.msgBox(request, "请先登录","../index.jsp","../index.jsp"));
+	return;
+}%>
+<%!
+private synchronized int save(Practice_Declare v ,HttpServletRequest request){
+	UserInfo ui = Tool.getUserInfo(request);
+    v.setId(ParamUtils.getIntParameter(request, "Id", -1));
+    int num = 0;
+    if (v.getId()!=-1&&v.getById(v.getId())!=null) {
+    	 v = v.getById(v.getId());
+    } 
+        v.setId(ParamUtils.getIntParameter(request, "Id", -1));
+        v.setDeclareId(ParamUtils.getIntParameter(request, "DeclareId", -1));
+        v.setAcademy(ParamUtils.getParameter(request, "Academy", ""));
+        v.setSubmitflag(ParamUtils.getIntParameter(request, "Submitflag", -1));
+       // v.setAddaccount(ParamUtils.getParameter(request, "Addaccount", ""));
+      //  v.setAddtime(ParamUtils.getParameter(request, "Addtime", ""));
+        v.setDeclare1(ParamUtils.getParameter(request, "Declare1", ""));
+        v.setDeclare2(ParamUtils.getParameter(request, "Declare2", ""));
+        v.setDeclare3(ParamUtils.getParameter(request, "Declare3", ""));
+        v.setDeclare4(ParamUtils.getParameter(request, "Declare4", ""));
+        v.setDeclare5(ParamUtils.getParameter(request, "Declare5", ""));
+        v.setDeclare6(ParamUtils.getParameter(request, "Declare6", ""));
+        v.setDeclare7(ParamUtils.getParameter(request, "Declare7", ""));
+        v.setDeclare8(ParamUtils.getParameter(request, "Declare8", ""));
+        v.setDeclare9(ParamUtils.getParameter(request, "Declare9", ""));
+        v.setDeclare10(ParamUtils.getParameter(request, "Declare10", ""));
+        v.setDeclare11(ParamUtils.getParameter(request, "Declare11", ""));
+        v.setDeclare12(ParamUtils.getParameter(request, "Declare12", ""));
+        v.setDeclare13(ParamUtils.getParameter(request, "Declare13", ""));
+        v.setDeclare14(ParamUtils.getParameter(request, "Declare14", ""));
+        v.setDeclare15(ParamUtils.getParameter(request, "Declare15", ""));
+        v.setDeclare16(ParamUtils.getParameter(request, "Declare16", ""));
+        v.setDeclare17(ParamUtils.getParameter(request, "Declare17", ""));
+        v.setDeclare18(ParamUtils.getParameter(request, "Declare18", ""));
+        v.setDeclare19(ParamUtils.getParameter(request, "Declare19", ""));
+        v.setDeclare20(ParamUtils.getParameter(request, "Declare20", ""));
+        v.setDeclare21(ParamUtils.getParameter(request, "Declare21", ""));
+        v.setDeclare22(ParamUtils.getParameter(request, "Declare22", ""));
+        v.setDeclare23(ParamUtils.getParameter(request, "Declare23", ""));
+        v.setDeclare24(ParamUtils.getParameter(request, "Declare24", ""));
+        v.setDeclare25(ParamUtils.getParameter(request, "Declare25", ""));
+        v.setDeclare26(ParamUtils.getParameter(request, "Declare26", ""));
+        v.setDeclare27(ParamUtils.getParameter(request, "Declare27", ""));
+        v.setDeclare28(ParamUtils.getParameter(request, "Declare28", ""));
+        v.setDeclare29(ParamUtils.getParameter(request, "Declare29", ""));
+        v.setDeclare30(ParamUtils.getParameter(request, "Declare30", ""));
+        v.setDeclare31(ParamUtils.getParameter(request, "Declare31", ""));
+        v.setDeclare32(ParamUtils.getParameter(request, "Declare32", ""));
+        v.setDeclare33(ParamUtils.getParameter(request, "Declare33", ""));
+        v.setDeclare34(ParamUtils.getParameter(request, "Declare34", ""));
+        v.setDeclare35(ParamUtils.getParameter(request, "Declare35", ""));
+        v.setDeclare36(ParamUtils.getParameter(request, "Declare36", ""));
+        v.setDeclare37(ParamUtils.getParameter(request, "Declare37", ""));
+        v.setDeclare38(ParamUtils.getParameter(request, "Declare38", ""));
+        v.setDeclare39(ParamUtils.getParameter(request, "Declare39", ""));
+        v.setDeclare40(ParamUtils.getParameter(request, "Declare40", ""));
+        v.setDeclare41(ParamUtils.getParameter(request, "Declare41", ""));
+        v.setDeclare42(ParamUtils.getParameter(request, "Declare42", ""));
+        v.setDeclare43(ParamUtils.getParameter(request, "Declare43", ""));
+        v.setDeclare44(ParamUtils.getParameter(request, "Declare44", ""));
+        v.setDeclare45(ParamUtils.getParameter(request, "Declare45", ""));
+        v.setDeclare46(ParamUtils.getParameter(request, "Declare46", ""));
+        v.setDeclare47(ParamUtils.getParameter(request, "Declare47", ""));
+        v.setDeclare48(ParamUtils.getParameter(request, "Declare48", ""));
+        v.setDeclare49(ParamUtils.getParameter(request, "Declare49", ""));
+        v.setDeclare50(ParamUtils.getParameter(request, "Declare50", ""));
+        v.setDeclare51(ParamUtils.getParameter(request, "Declare51", ""));
+        v.setDeclare52(ParamUtils.getParameter(request, "Declare52", ""));
+        v.setDeclare53(ParamUtils.getParameter(request, "Declare53", ""));
+        v.setDeclare54(ParamUtils.getParameter(request, "Declare54", ""));
+        v.setDeclare55(ParamUtils.getParameter(request, "Declare55", ""));
+        v.setDeclare56(ParamUtils.getParameter(request, "Declare56", ""));
+        v.setDeclare57(ParamUtils.getParameter(request, "Declare57", ""));
+        v.setDeclare58(ParamUtils.getParameter(request, "Declare58", ""));
+        v.setDeclare59(ParamUtils.getParameter(request, "Declare59", ""));
+        v.setDeclare60(ParamUtils.getParameter(request, "Declare60", ""));
+        v.setDeclare61(ParamUtils.getParameter(request, "Declare61", ""));
+        v.setDeclare62(ParamUtils.getParameter(request, "Declare62", ""));
+        v.setDeclare63(ParamUtils.getParameter(request, "Declare63", ""));
+        v.setDeclare64(ParamUtils.getParameter(request, "Declare64", ""));
+        if (v.getId()!=-1&&v.getById(v.getId())!=null) {
+        	num = v.update();
+       } else {
+    	   v.setAddaccount(ui.getId()+"");
+    	   v.setAddtime(Tool.stringOfDateTime(new Date()));
+    	   num = v.insert();
+       }
+        String SId = ParamUtils.getParameter(request,"SId","");
+        Practice_Declare_Teammember member = new Practice_Declare_Teammember();
+        Map<String,Practice_Declare_Teammember> map = new HashMap<String,Practice_Declare_Teammember>();
+        List cdt = new ArrayList();
+        List list = new ArrayList();
+        cdt.add("PracticeId="+v.getId());
+        cdt.add("SName in("+SId+")");
+        list = member.query(cdt);
+        if (list.size()>0) {
+        	for (int i=0;i<list.size();i++) {
+        		member = (Practice_Declare_Teammember)list.get(i);
+        		map.put(member.getSName(),member);
+        	}
+        }
+        cdt.clear();
+        cdt.add("PracticeId="+v.getId());
+        cdt.add("SName not in("+SId+")");
+        member.deleteByCondition(cdt);
+        String sidArr[] = SId.split(",");
+        for (int i=0;i<sidArr.length;i++) {
+        	String SName = ParamUtils.getParameter(request,"SName"+sidArr[i],"");
+        	String Sno = ParamUtils.getParameter(request,"Sno"+sidArr[i],"");
+        	String Sex = ParamUtils.getParameter(request,"Sex"+sidArr[i],"");
+        	String Academy = ParamUtils.getParameter(request,"Academy"+sidArr[i],"");
+        	String Grade = ParamUtils.getParameter(request,"Grade"+sidArr[i],"");
+        	String IdCard = ParamUtils.getParameter(request,"IdCard"+sidArr[i],"");
+        	String Address = ParamUtils.getParameter(request,"Address"+sidArr[i],"");
+        	String Phone = ParamUtils.getParameter(request,"Phone"+sidArr[i],"");
+        	String Duty = ParamUtils.getParameter(request,"Duty"+sidArr[i],"");
+        	Practice_Declare_Teammember team = new Practice_Declare_Teammember();
+        	if (map.get(SName)!=null) {
+        		team = map.get(SName);
+        	}
+        	team.setPracticeId(v.getId()+"");
+        	team.setSno(Sno);
+        	team.setSName(SName);
+        	team.setSex(Sex);
+        	team.setAcademy(Academy);
+        	team.setGrade(Grade);
+        	team.setIdCard(IdCard);
+        	team.setAddress(Address);
+        	team.setPhone(Phone);
+        	team.setDuty(Duty);
+        	if (map.get(SName) ==null) {
+	        	team.insert();
+        	} else {
+	        	team.update();
+        	}
+        }
+        map.clear();
+   return num;
+}
+%>
+<%
+String cmd = ParamUtils.getParameter(request,"cmd","");
+if("saveOrUpdate".equals(cmd)){
+	Practice_Declare v = new Practice_Declare();
+	int num = save(v,request);
+	if(num>0)
+		response.sendRedirect(HeadConst.apache_url+"/pratice/pratice-activity-list.jsp");
+		return;
+}
+
+%>

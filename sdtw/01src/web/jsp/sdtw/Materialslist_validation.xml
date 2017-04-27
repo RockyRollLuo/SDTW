@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="UserAccount" display-name="用户账号">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="UserName" display-name="用户名称">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="FileTitle" display-name="文件标题">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="FileSaveName" display-name="文件名称">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="Description" display-name="文件描述">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="PublicFlag" display-name="是否公开">
+<depend name="integer" />
+</field>
+<field name="KeyWordsList" display-name="关键字">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="ProjectName" display-name="项目名称">
+<depend name="maxLength" param0="2000" />
+</field>
+<field name="FoderCode" display-name="项目code">
+<depend name="maxLength" param0="2000" />
+</field>
+</form>
+</validation-config>

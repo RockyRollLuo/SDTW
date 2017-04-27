@@ -1,0 +1,46 @@
+.window_msg {
+    background-color: #efefef;
+    border: 2px solid #cccccc;
+    height: 240px;
+    margin: 0 auto;
+    width: 400px;
+    z-index: 99;
+}
+
+
+.windownei {
+    background-color: #ffffff;
+    border: 0 none;
+    height: 200px;
+    margin: 20px;
+    width: 360px;
+}
+
+
+.window001 {
+    border: 0 none;
+    color: #ae0303;
+    font-family: "微软雅黑";
+    font-size: 20px;
+    height: 80px;
+    line-height: 100px;
+    text-align: center;
+    width: 360px;
+}
+
+
+.window002 {
+    border: 0 none;
+    font-size: 14px;
+    height: 70px;
+    line-height: 40px;
+    text-align: center;
+    width: 360px;
+}
+
+.window003 {
+    border: 0 none;
+    height: 60px;
+    text-align: center;
+    width: 360px;
+}

@@ -1,0 +1,40 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<base target="_self">
+<script>
+var tt=1;
+function ctrl_left()
+{
+   if (tt==1)
+   { 
+     window.parent.frames02.cols="0,10px,*";
+     lrarrow.src="../images/ctrlleft01.gif";
+     tt=0;
+   }
+   else
+   {
+     window.parent.frames02.cols="200px,10px,*";
+     lrarrow.src="../images/ctrlleft02.gif";
+     tt=1;
+   }
+}
+</script>
+<style type="text/css">
+body{
+	margin:0;
+	cursor:pointer;
+	background:url(../images/background.gif);
+}
+
+img{
+	margin-top:300px;
+}
+
+
+</style>
+</head>
+<body onClick="ctrl_left()">
+	<img id="lrarrow" src="../images/ctrlleft02.gif"/>
+</body>
+</html>

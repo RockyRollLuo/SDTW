@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="ProjectName" display-name="项目名称">
+<depend name="required" />
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ProjectDetail" display-name="项目详情">
+<depend name="required" />
+<depend name="maxLength" param0="500" />
+</field>
+<field name="ProjectId" display-name="联系方式">
+<depend name="required" />
+<depend name="phone" />
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ProjectLeader" display-name="负责人">
+<depend name="required" />
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ProjectUnit" display-name="立项单位">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="TimeStart" display-name="开始时间">
+<depend name="required" />
+<depend name="maxLength" param0="15" />
+</field>
+<field name="TimeEnd" display-name="结束时间">
+<depend name="required" />
+<depend name="maxLength" param0="15" />
+</field>
+<field name="Remark" display-name="备注">
+<depend name="maxLength" param0="500" />
+</field>
+<field name="AddPerson" display-name="添加人">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="ModiPerson" display-name="修改人">
+<depend name="maxLength" param0="45" />
+</field>
+</form>
+</validation-config>

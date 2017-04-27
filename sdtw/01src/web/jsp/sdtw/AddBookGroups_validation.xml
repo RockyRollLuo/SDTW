@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validation-config lang="zh-cn">
+<form id="postForm" show-error="errorDiv" onfail="" show-type="first">
+<field name="UserAccount" display-name="账号">
+<depend name="maxLength" param0="45" />
+</field>
+<field name="GroupList" display-name="用户组名或用户名">
+<depend name="maxLength" param0="400" />
+</field>
+</form>
+</validation-config>
